@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    border: 1px solid black;
+    position: relative;
+}
+#topLeft {
+    background-color: burlywood;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: fugaz one;
+}
+#topRight {
+    background-color: cadetblue;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: fugaz one;
+}
+#bottomLeft {
+    background-color: chocolate;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: fugaz one;
+}
+#bottomRight {
+    background-color: cyan;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: fugaz one;
+}
+.buttons-toastr{
+    /* border: 1px solid red; */
+    width: 600px;
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#topLeftDisplay {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+#close{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    background-color: blue;
+}
+#topRightDisplay {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+#bottomLeftDisplay {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+#bottomRightDisplay {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+footer i{
+    color: red;
+    padding: 10px;
+    cursor: pointer;
+}
