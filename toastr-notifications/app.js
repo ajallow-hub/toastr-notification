@@ -18,8 +18,8 @@ const toastr = () => {
             document.querySelector("#topLeftDisplay").style.display = "none";
         }, 3000);
     })
-    const topRight = document.querySelector("#topRight");
-    const display1 = document.createElement("P");
+        const topRight = document.querySelector("#topRight");
+        const display1 = document.createElement("P");
     topRight.addEventListener("click", () => {
         document.querySelector("#topRightDisplay").style.display = "block";
         display1.textContent = "Hello World !!!";
@@ -35,10 +35,10 @@ const toastr = () => {
             document.querySelector("#topRightDisplay").style.display = "none";
         }, 2000);
     })
-    const bottomLeft = document.querySelector("#bottomLeft");
-    const display2 = document.createElement("P");
+        const bottomLeft = document.querySelector("#bottomLeft");
+        const display2 = document.createElement("P");
     bottomLeft.addEventListener("click", () => {
-        document.querySelector("#bottomLeftDisplay").style.display = "block";
+        document.querySelector("#bottomLeftDisplay").style.display = "none";
         display2.textContent = "Hello World !!!";
         document.querySelector("#bottomLeftDisplay").appendChild(display2);
         document.querySelector("#bottomLeftDisplay").style.color = "black";
@@ -52,8 +52,8 @@ const toastr = () => {
             document.querySelector("#bottomLeftDisplay").style.display = "block";
         }, 2000);
     })
-    const bottomRight = document.querySelector("#bottomRight");
-    const display3 = document.createElement("P");
+        const bottomRight = document.querySelector("#bottomRight");
+        const display3 = document.createElement("P");
     bottomRight.addEventListener("click", () => {
         document.querySelector("#bottomRightDisplay").style.display = "block";
         display3.textContent = "Hello World !!!";
